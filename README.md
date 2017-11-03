@@ -9,9 +9,8 @@ tcp/9050 is used for Tor's SOCKS5 proxy.
 ## How to run?
 
 ```
-docker run -p 9050:9050 --name safe_tor_client andreas4all/tor-simple-safe:latest
+docker run -p 9050:9050 --name safe_tor_client jonasthambert/tor-client-simple-safe:latest
 ```
-
 
 You can test it with curl:
 
